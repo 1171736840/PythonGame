@@ -46,15 +46,14 @@
                     },
                     {
                         "name": "宝箱",
-                        "class": "resource.element.宝箱.宝箱.TreasureBox",
+                        "class": "element.宝箱.TreasureBox",
                         "json": "resource/element/宝箱/宝箱.json",
                         "attribute": {
                             "name": "宝箱",
                             "rect": {
                                 "x": 200,
                                 "y": 200
-                            },
-                            "autoControl":true
+                            }
                         }
                     }
                 ]

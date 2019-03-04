@@ -45,7 +45,7 @@ class Scene(Element):
 
         # 加载声音资源
         pygame.mixer.music.load(self.backGroundMusic)  # 加载声音对象
-        # pygame.mixer.music.play(loops=-1)  # 循环播放
+        pygame.mixer.music.play(loops=-1)  # 循环播放
         # pygame.mixer.music.get_busy()   # 检查音乐流是否正在播放
         # pygame.mixer.music.fadeout(1000)  # 淡出后停止播放音乐
 
