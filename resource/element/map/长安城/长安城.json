@@ -1,0 +1,21 @@
+{
+    "name": "长安城",
+    "maskColorKey":[0,0,0],
+    "state":"state_01",
+    "resource": {
+        "image":{
+            "map": "image/map.jpg",
+            "map2": "image/map2.jpg",
+            "map3": "image/map3.jpg",
+            "map4": "image/map_test.png"
+        }
+    },
+    "animation": {
+        "state_01": {
+            "frame": [
+                "map4"
+            ],
+            "interval": 0
+        }
+    }
+}

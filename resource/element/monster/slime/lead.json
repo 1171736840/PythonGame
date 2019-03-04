@@ -1,0 +1,60 @@
+{
+    "name": "史莱姆",
+    "speed":100,
+    "state":"stand_right",
+    "resource": {
+        "image":{
+            "left_01": "image/left_01.png",
+            "left_02": "image/left_02.png",
+            "left_03": "image/left_03.png",
+            "right_01": "image/right_01.png",
+            "right_02": "image/right_02.png",
+            "right_03": "image/right_03.png"
+        },
+        "sound":{
+            "BattleControlOnline":"sound/BattleControlOnline.wav"
+        }
+    },
+    "sound":{
+        "left":"BattleControlOnline",
+        "right":"BattleControlOnline"
+    },
+    "animation": {
+        "up": {
+            "frame": [
+                "left_02"
+            ],
+            "interval": 0
+        },
+        "down": {
+            "frame": [
+                "right_02"
+            ],
+            "interval": 0 
+        },
+        "left": {
+            "frame": [
+                "left_02"
+            ],
+            "interval": 0
+        },
+        "right": {
+            "frame": [
+                "right_02"
+            ],
+            "interval": 0
+        },
+        "stand_left": {
+            "frame": [
+                "left_03"
+            ],
+            "interval": 0
+        },
+        "stand_right": {
+            "frame": [
+                "right_03"
+            ],
+            "interval": 0
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "月亮",
+    "state":"state_01",
+    "resource": {
+        "image":{
+            "img": "image/月亮.png"
+        }
+    },
+    "animation": {
+        "state_01": {
+            "frame": [
+                "img"
+            ],
+            "interval": 0
+        }
+    }
+}

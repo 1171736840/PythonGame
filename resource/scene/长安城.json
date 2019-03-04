@@ -1,0 +1,67 @@
+{
+    "name": "长安城",
+    "backGroundMusic": "resource/element/map/长安城/sound/bgm.mp3",
+    "map": "地图",
+    "followElement":"主角",
+    "subElementList": [
+        {
+            "name": "地图",
+            "class": "element.base.Map",
+            "json": "resource/element/map/长安城/长安城.json",
+            "explain": "说明:class和json都是相对于main.py的路径，class用“.”表示“/”，结尾不要带“.py”",
+            "attribute": {
+                "name": "地图",
+                "rect":{
+                    "x": 0,
+                    "y": 0
+                },
+                "subElementList":[
+                    {
+                        "name": "史莱姆",
+                        "class": "element.role.Role",
+                        "json": "resource/element/monster/slime/slime.json",
+                        "attribute": {
+                            "rect": {
+                                "x": 0,
+                                "y": 200
+                            },
+                            "autoControl":true,
+                            "state":"right",
+                            "speed":200
+                        }
+                    },
+                    {
+                        "name": "主角",
+                        "class": "element.role.Role",
+                        "json": "resource/element/monster/slime/Lead.json",
+                        "attribute": {
+                            "name": "主角",
+                            "speed": 200,
+                            "userControl":true,
+                            "rect": {
+                                "x": 200,
+                                "y": 200
+                            }
+                        }
+                    },
+                    {
+                        "name": "宝箱",
+                        "class": "resource.element.宝箱.宝箱.TreasureBox",
+                        "json": "resource/element/宝箱/宝箱.json",
+                        "attribute": {
+                            "name": "宝箱",
+                            "rect": {
+                                "x": 200,
+                                "y": 200
+                            },
+                            "autoControl":true
+                        }
+                    }
+                ]
+            }
+        }
+        
+        
+        
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "宝箱",
+    "state":"state_01",
+    "resource": {
+        "image":{
+            "img": "image/宝箱.png"
+        }
+    },
+    "animation": {
+        "state_01": {
+            "frame": [
+                "img"
+            ],
+            "interval": 0
+        }
+    }
+}
